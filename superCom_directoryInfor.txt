@@ -1,0 +1,2796 @@
+
+Directory that has the complete LSMAoClose run (has proper POTCAR,INCAR,KPOINTS):
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles
+
+This directroy also has a vasprun.xml
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles
+
+
+sftp whale@stampede2.tacc.utexas.edu
+/work/06506/whale/stampede2
+
+
+
+/work/06506/whale/stampede2/LSMAoClose/runWithSuppliedFiles
+
+
+F:\week7superComputer\LSMAclose
+
+
+Total En. DOS:
+
+LSMAO Far
+target:
+F:\week8superComputer\LSMAfar
+host directory:
+/work/06506/whale/stampede2/LSMAoFar/LSMAoFarSuppliedFiles
+
+
+LSM
+target:
+F:\week8superComputer\LSM
+host directory:
+/work/06506/whale/stampede2/LSMplain/run2/double_check
+
+LSMA
+target:
+F:\week8superComputer\LSMA
+host directoryL:
+/work/06506/whale/stampede2/LSMAplain
+
+
+
+Partial DOS:
+
+First test for LSMAoClose
+target:
+F:\week8superComputer\pdos\LSMAoClose
+host:
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose
+
+get /work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/* F:\week8superComputer\pdos\LSMAoClose
+
+
+
+Second test for LSMAoClose
+host:
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2
+target:
+F:\week8superComputer\pdos\LSMAoClose\2ndattempt
+
+get /work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/* F:\week8superComputer\pdos\LSMAoClose\2ndattempt
+
+
+third test for LSMAclose
+host
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry3
+target:
+F:\week8superComputer\pdos\LSMAoClose\3rdattempt
+
+get /work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry3\* F:\week8superComputer\pdos\LSMAoClose\3rdattempt
+
+
+
+get /work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2alt/pdosTry2altStep2/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week9and10\pdos\LSMAoCloseSys\LSMAoClosePDOSdata
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2alt/pdosTry2altStep2/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week9and10\pdos\LSMAoCloseSys\LSMAoClosePDOSdata
+
+
+***** Getting CONTCAR to generate images of different vacancies ***********************************************
+***************************************************************************************************************
+For LSMAoClose
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMAOclose
+
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys
+
+
+************************************************************************************************************************************
+For LSMAoFar
+
+
+scp whale@stampede2.tacc.utexas.edu://work/06506/whale/stampede2/LSMAoFar/LSMAoFarSuppliedFiles/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMAOfar
+
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMAOfar
+/work/06506/whale/stampede2/LSMAoFar/LSMAoFarSuppliedFiles
+
+************************************************************************************************************************************
+For LSMO
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMoOnly/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMO
+
+/work/06506/whale/stampede2/LSMoOnly
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMO
+
+************************************************************************************************************************************
+For LSM
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMplain/run2/double_check/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSM
+
+
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSM
+/work/06506/whale/stampede2/LSMplain/run2/double_check
+
+
+************************************************************************************************************************************
+For LSMA
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMA
+
+/work/06506/whale/stampede2/LSMAplain/CONTCAR
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week11\working\LSMsys\LSMA
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/pdosLSMAplain/vasprun.xml G:\week9and10\thousandpts\LSMAplainTest\
+
+************************************************************************************************************************************
+For LSMAOclose try at convergence plot with p4vasp
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\tutorials\stampede2Run\p4vasp\convergencePlot\
+
+
+
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\tutorials\stampede2Run\p4vasp\convergencePlot
+/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles
+
+
+
+
+For actual PDOS
+*************************************************************************************************************************************
+For actual LSMA
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/pdosLSMAplain/step2/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\LSMpdos\LSMA
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/pdosLSMAplain/step2/vasprun.xml
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\LSMpdos\LSMA
+
+
+
+For Maybe actual LSM
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMplain/run2/double_check/PDOSonSec/step2/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\LSMpdos\LSM
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\LSMpdos\LSM
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMplain/run2/double_check/PDOSonSec/step2/vasprun.xml
+
+
+
+
+
+
+
+
+
+
+Rerunning LSM 
+
+scp C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\redoingLSM\fromChoudhury\* whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMactPlain/
+
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMactPlain
+
+src.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\redoingLSM\fromChoudhury
+
+
+
+
+---------------Downloading LSM structure relaxation vasprun to see why the run did not ionic converge---------------------------------------------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMplain/run2/double_check/run3/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\redoingLSM\investigationOfFailure\thirdRunOfLSMbadIonicConv
+
+
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\redoingLSM\investigationOfFailure\thirdRunOfLSMbadIonicConv
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMplain/run2/double_check/run3/vasprun.xml
+
+
+---------------Downloading LSMA structure relaxation vasprun which did converge (as a comparision)------------------------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\redoingLSM\investigationOfFailure\runOfLSMAconverg
+
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week13\redoingLSM\investigationOfFailure\runOfLSMAconverg
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/vasprun.xml
+
+
+-------------Downloading LSMA POSCAR to double check that I used the right POSCAR ----------------------------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\checkIdidrightLSMA\poscarOnStampede2
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAplain
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\checkIdidrightLSMA\poscarOnStampede2
+
+
+
+------------ Downloading LSMAO close PDOS xml for band centers ---------8/19/2019-------------
+------------ & Downloading CONTCAR as well
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2act/tryToCongerge/fixConv/step2/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\reduePDOS\LSMAOclose
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2act/tryToCongerge/fixConv/step2/vasprun.xml
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\reduePDOS\LSMAOclose
+
+CONTCAR-:
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2act/tryToCongerge/fixConv/step2/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\reduePDOS\LSMAOclose
+
+
+
+------------ Downloading LSMO PDOS xml for band centers --------------8/20/2019-------------
+------------ & Downloading CONTCAR as well
+
+xml:
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMoOnly/PDOSstep1/PDOSstep2/vasprun.xml C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\reduePDOS\LSMO
+CONTCAR:
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMoOnly/PDOSstep1/PDOSstep2/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\reduePDOS\LSMO
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMoOnly/PDOSstep1/PDOSstep2/vasprun.xml
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\reduePDOS\LSMO
+
+
+
+-------------- Downloading LSMAO close bader charge analysis and corresponding CONTCAR ------------- 8/23/2019----------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2act/tryToCongerge/fixConv/step2/baderChargeAnalysis/* C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\baderChargeAnalysis\LSMAOclose
+
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMAoClose/actualTryWithSuppliedFiles/PDOSLSMAOclose/pdosTestTry2/pdosTestTry2act/tryToCongerge/fixConv/step2/baderChargeAnalysis/*
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week14\baderChargeAnalysis\LSMAOclose
+
+
+
+
+------------- Building stuff for Intermediates (LSMAO close)  --------------------- 8/23/2019----------------act: 8/25/2019
+
+
+Uploading CONTCAR to runasdfasdfa
+
+
+
+dest.:
+/work/06506/whale/stampede2/intermediates/LSMAOclose
+
+
+
+
+------------------Putting in right POSCAR for LSMAOclose-O -------------------------- 8/27/2019 ------------------
+
+scp C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week15\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withSamePOTCAR
+
+
+
+dest.: 
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withSamePOTCAR
+
+src.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week15\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\POSCAR
+
+
+-------------------- Using MedeA generated POTCAR for LSMAOclose-O---------------------------- 8/27/2019 ------------------
+
+
+scp C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week15\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\correctedPOTCARfromMedeA\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar
+
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar
+
+src.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week15\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\correctedPOTCARfromMedeA\POTCAR
+
+
+
+--- Comparing CONTCAR for LSMAOclose-O with the two different POTCARs dicussed above --------- 8/28/2019 --------------
+-----------( Have to get both CONTCARs)--------------------------------------------------------------------------------
+
+
+---- first CONTCAR for MedeA POTCAR ----
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/CONTCAR F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\CONTCARwithMedeAPOT
+
+
+
+src.: 
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/CONTCAR
+
+dest.: 
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\CONTCARwithMedeAPOT
+
+---- second CONTCAR for old POTCAR ----
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withSamePOTCAR/CONTCAR F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\CONTCARwithOldPOT
+
+
+
+src.: 
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withSamePOTCAR/CONTCAR
+
+dest.: 
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\CONTCARwithOldPOT
+
+
+
+-----------Uploading LSMAO-OO intermediate POSCAR and POTCAR---------------8/31/2019-----------------
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OO\unrelaxStruPot\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OO\unrelaxStruPot\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+
+src.:
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OO\unrelaxStruPot\POSCAR
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OO\unrelaxStruPot\POTCAR
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+
+
+
+-----------Uploading LSMAO-OH intermediate POSCAR and POTCAR---------------8/31/2019-----------------
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OH\unrelaxStruPOT\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OH\unrelaxStruPOT\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH
+
+src.:
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OH\unrelaxStruPOT\POSCAR
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OH\unrelaxStruPOT\POTCAR
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+
+
+-------------copying other files for above two intermediates---------------8/31/2019-----------------
+cp INCAR /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH
+cp KPOINTS /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH
+cp job.mpi /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH
+
+cp INCAR /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+cp KPOINTS /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+cp job.mpi /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO
+
+
+------------- I think I might have done 3.96 for Mn s-band instead of the d-band for the LSMAO intermediates shown above ---------------------
+------------------------------- So I am reloading POTCARs ----------------------------- 9/2/2019 ---------------------------------------------
+-----------Updating LSMAO-OO intermediate POTCAR for acutal run ----------------------- 9/2/2019 ---------------------------------------------
+
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OO\unrelaxStruPot\actualPOTCAR\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact
+
+
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact
+
+src.:
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OO\unrelaxStruPot\actualPOTCAR\POTCAR
+
+
+
+
+
+-----------Updating LSMAO-O intermediate POTCAR for acutal run ----------------------- 9/2/2019 ---------------------------------------------
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\actualCorrection\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun
+
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun
+
+src.:
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\actualCorrection\POTCAR
+
+
+------------ I also did not update the INCAR for the LSMAO-OH intermediate for the LDAU parameter for Hydrogen ---------------------------------
+--------------------------- So I had to fix that -----------------------------------------------------------------------------------------------
+-----------Updating LSMAO-OH intermediate POTCAR for acutal run ----------------------- 9/2/2019 ---------------------------------------------
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OH\unrelaxStruPOT\actualPOTCAR\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun
+
+
+
+dest.: 
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun
+
+src.:
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OH\unrelaxStruPOT\actualPOTCAR\POTCAR
+
+
+
+
+--------------------------9/3/2019------------ Getting new relaxed LSMAO_OO to build the LSMAO_OOH intermediate--------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week15\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\correctedPOTCARfromMedeA\relaxed
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/CONTCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week15\week15stuff\intermediates\LSMAOclose\LSMAOO\correction\correctedPOTCARfromMedeA\relaxed
+
+
+--------------------------9/3/2019------------ Uploading unrelaxed POSCAR and POTCAR for LSMAO_OOH intermediate for relaxtion run -----------------------------------
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OOH\unrelaxed\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/
+
+
+
+scp F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OOH\unrelaxed\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/
+
+
+
+
+src.:
+F:\researchWithPabrita\week15stuff\intermediates\LSMAOclose\LSMAO_OOH\unrelaxed
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/
+
+----------------------9/4/2019---------------- Downloading all LSMAO intermiates except -OOH to make diagrams --------------------------\CONTCAR
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_O
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_OO
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_OOH
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_OH
+
+
+
+
+
+src.1:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/CONTCAR
+dest.1:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_O
+
+src.2:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/CONTCAR
+dest.2:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_OO
+
+src.3:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/CONTCAR
+dest.3:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_OOH
+
+src.4:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/CONTCAR
+dest.4:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_OH
+
+----------------------9/4/2019---------------- Investigating bader file ------- (I think this might be a compliled file so it didn't help)
+
+scp whale@stampede2.tacc.utexas.edu:/home1/06506/whale/bader C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\baderChargeInvestigation
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/home1/06506/whale
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\baderChargeInvestigation
+
+
+
+-------------------9/5/2019----------------- Getting all the frequencies ran files for LSMAO_O intermediate -----------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/freqLSMAOclose/* C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_O\LSMAO_Ofreq
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/freqLSMAOclose/*
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week16\relaxed_intermed_CONTCARs\LSMAO_close\LSMAO_O\LSMAO_Ofreq
+
+-----------------9/6/2019------------------ Getting the LSMAO-OH intermediate files to run on the MedeA machine -------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/* F:\researchWithPabrita\week17stuff
+
+src.: whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun
+
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun
+
+dest.:
+F:\researchWithPabrita\week17stuff
+
+
+
+-------------- 9/8/2019 ------------------ Getting the LSMAO-OOH relaxed structure --------------------------------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/CONTCAR F:\researchWithPabrita\week17stuff\SOme_finished_relaxs\LSMAO_OOH
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/CONTCAR
+
+dest.: F:\researchWithPabrita\week17stuff\SOme_finished_relaxs\LSMAO_OOH
+
+------------- 9/12/2019 ----------------- Getting the LSMAO-OO relaxed structure  --------------------------------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/CONTCAR F:\researchWithPabrita\week17stuff\SOme_finished_relaxs\LSMAO_OO
+
+
+src.: whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/CONTCAR
+
+
+dest.: F:\researchWithPabrita\week17stuff\SOme_finished_relaxs\LSMAO_OO
+
+
+
+**********************************************************************************************************************************************************
+
+
+-------------------------- Getting the LSAMO (close) intermediates frequency run outCARS and POSCARS
+
+------9/13/2919------ LSMAO-OO freq files first -------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/LSMAO_OOfreq/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOfre\freqOUTCAR
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/LSMAO_OOfreq/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOfre\POSCAR
+
+
+
+scr.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/LSMAO_OOfreq/OUTCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/LSMAO_OOfreq/POSCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOfre\freqOUTCAR
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOfre\POSCAR
+
+
+------------ 9/14/2019 ------------Getting the LSAMO-OO relaxtion outcar
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOfre\relaxOUTCAR
+
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/LSMAO_OOact/OUTCAR
+
+dst.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOfre\relaxOUTCAR
+
+
+******************************************************************************************************
+
+
+
+
+
+------------ LSMAO-O freq files ------------- 9/14/2019 ------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/freqLSMAOclose/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_Ofreq\freqOUTCAR
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/freqLSMAOclose/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_Ofreq\POSCAR
+
+
+
+scr.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/freqLSMAOclose/OUTCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/freqLSMAOclose/POSCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_Ofreq\freqOUTCAR
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_Ofreq\POSCAR
+
+
+------------ 9/14/2019 ------------Getting the LSAMO-O relaxtion outcar
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_Ofreq\relaxOUTCAR
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/OUTCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_Ofreq\relaxOUTCAR
+
+
+***************************************************************************************************
+
+
+
+
+
+
+
+------------ LSMAO-OOH freq files ------------- 9/14/2019 ------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/LSMAO_OOHfreq/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOHfreq\freqOUTCAR
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/LSMAO_OOHfreq/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOHfreq\POSCAR
+
+
+scr.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/LSMAO_OOHfreq/OUTCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/LSMAO_OOHfreq/POSCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOHfreq\freqOUTCAR
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOHfreq\POSCAR
+
+
+------------ 9/14/2019 ------------Getting the LSAMO-OOH relaxtion outvcar
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOHfreq\relaxOUTCAR
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/OUTCAR
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OOHfreq\relaxOUTCAR
+
+
+
+******************************************************************************************************
+
+
+
+
+
+------------ LSMAO-OH freq files ------------- 9/14/2019 ------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/freqLSMOH/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OHfreq\freqOUTCAR
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/freqLSMOH/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OHfreq\POSCAR
+
+%
+scr.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/freqLSMOH/OUTCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/freqLSMOH/POSCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OHfreq\freqOUTCAR
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OHfreq\POSCAR
+
+------------ 9/14/2019 ------------Getting the LSAMO-OH relaxtion outvcar
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OHfreq\relaxOUTCAR
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/OUTCAR
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summer2019\ReportsForPabritaChoudury\week18\filesForTamkin\LSMAOclose\LSMAO_OHfreq\relaxOUTCAR
+
+
+******************************************************************************************************
+
+
+--------------- Uploading POSCARs for LSMA-O and LSMO-O intermediates ------ 9/17/2019 -------
+scp F:\researchWithPabrita\week18stuff\LSMA_intermediate\LSMA_O\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+scp F:\researchWithPabrita\week18stuff\LSMO_intermediate\LSMO_O\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+
+
+src.:
+F:\researchWithPabrita\week18stuff\LSMA_intermediate\LSMA_O\POSCAR
+F:\researchWithPabrita\week18stuff\LSMO_intermediate\LSMO_O\POSCAR
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+
+--------------------copy INCAR and KPOINTS for new intermediate runs --------------------------9/18/2019------------------- 
+cp /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/job.mpi /work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+cp /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/INCAR /work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+cp /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/KPOINTS /work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+
+cp /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/job.mpi /work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+cp /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/INCAR /work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+cp /work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/KPOINTS /work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/job.mpi
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/INCAR
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/KPOINTS
+
+
+dest.:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+
+
+--------------- re-Uploading POSCARs for LSMA-O and LSMO-O intermediates -------as well as POTCARs------ 9/18/2019 -------
+scp F:\researchWithPabrita\week18stuff\LSMA_intermediate\LSMA_O\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+scp F:\researchWithPabrita\week18stuff\LSMO_intermediate\LSMO_O\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+scp F:\researchWithPabrita\week18stuff\LSMA_intermediate\LSMA_O\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMA/LSMA_O
+scp F:\researchWithPabrita\week18stuff\LSMO_intermediate\LSMO_O\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O
+
+
+------------------------------ uploading second attempts at LSMAO-OH, -OOH,-O  POSCAR and POTCAR  ------------------------------------------------------------------------
+scp F:\week20stuff\LSMAO_Osec\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/secondTry
+scp F:\week20stuff\LSAMO_OHsec\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second
+scp F:\week20stuff\LSMAO_OOHsec\POSCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second
+
+scp F:\week20stuff\LSMAO_Osec\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/secondTry
+scp F:\week20stuff\LSAMO_OHsec\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second
+scp F:\week20stuff\LSMAO_OOHsec\POTCAR whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second
+
+
+src.:
+F:\week20stuff\LSMAO_Osec\POSCAR
+F:\week20stuff\LSAMO_OHsec\POSCAR
+F:\week20stuff\LSMAO_OOHsec\POSCAR
+
+F:\week20stuff\LSMAO_Osec\POTCAR
+F:\week20stuff\LSAMO_OHsec\POTCAR
+F:\week20stuff\LSMAO_OOHsec\POTCAR
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/secondTry
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second
+
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/first/withMedeApotcar/actualRun/secondTry
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second
+
+
+
+------------------------------- Getting POSCAR from second LSMAO-OH run -----------------------------------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second/CONTCAR F:\week20stuff\LSAMO_OHsec\relaxedContcar
+
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second
+
+dest.:
+F:\week20stuff\LSAMO_OHsec\relaxedContcar
+
+
+
+
+
+-------------------------- Getting CONTCARs from LSAMO-XXH intermediates re runs (10/3/2019) also POSCARs and also POTCARs --------------------------------------------
+CONTCARs
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21\LSMAOH
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21\LSMAOOH
+POSCARs
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21\LSMAOH
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second/POSCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21\LSMAOOH
+POTCARs
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second/POTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21\LSMAOH
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second/POTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21\LSMAOOH
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/actPOTCARrun/second
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OOH/second
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\ReportsForPabritaChoudury\week21
+
+
+----------------------- Getting all compressed files off of stampede2 machine ------------------------- 10/9/2019 -------------------------------------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/tar10_8_1019.tar.gz C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\backups\10_9_2019StampedeBackup\LSMsystem
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/tar10_8_1019.tar.gz
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\backups\10_9_2019StampedeBackup\LSMsystem
+
+----------------------- Getting all the compressed files was taking to long So I only got the intermediates -------------------------------------10/12/2019---------------------
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermedLSMcomp.tar.gz C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\backups\10_9_2019StampedeBackup\LSMsystem\LSMAinter
+
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermedLSMcomp.tar.gz
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\summerFall2019\backups\10_9_2019StampedeBackup\LSMsystem\LSMAinter
+
+
+------------------------ Downloading LSMO_O intermediate to compare it with one I drew on MAC  ---------------------------------------------------1/10/2020-----------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/POTCAR F:\researchWithPabrita\spr2020\LSMO_Ocomparison\fromStampede
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/CONTCAR F:\researchWithPabrita\spr2020\LSMO_Ocomparison\fromStampede
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/POTCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/CONTCAR
+dest.:
+F:\researchWithPabrita\spr2020\LSMO_Ocomparison\fromStampede
+
+
+
+------------------------ Uploading LSMO_O alternate site intermediate ( the one I drew on MAC) to compare it with  primiary  ---------------------1/10/2020------------------------
+
+scp C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week1\LSMO_Bmaybe\forStampede2\LSMO_OB\* whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/LSMO_Oalt
+
+dest.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/LSMO_Oalt
+src.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week1\LSMO_Bmaybe\forStampede2\LSMO_OB
+
+------------------------ Downloading LSMO_O alternate site intermediate relaxed to send to Choudhury -------------------------------------------- 2/13/2020 ------------------------
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/someLSMO_intermed.tar.gz C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week5
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/someLSMO_intermed.tar.gz
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week5
+
+
+------------------------ Downloading LSMO_O Prystine to send to Choudhury -------------------------------------------- 2/14/2020 ------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnly/OUTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week5\prystine
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnly/OUTCAR
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week5\prystine
+
+------------------------ Downloading LSMOoOnly to help do PDOS for eg electrons --------------------------------------- 3/26/2020 ------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnlyCompress.tar.gz C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\springBreakResDFT\LSMO
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnlyCompress.tar.gz
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\springBreakResDFT\LSMO
+
+>> I cancled the download because it hat an ETA of over 6 hours.
+
+------------------------ Downloading LSMOoOnly INCARS to help do PDOS for eg electrons --------------------------------------- 3/26/2020 ------------------------
+
+
+
+src.1:
+
+
+src.2:
+
+
+Dest.1:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\springBreakResDFT\LSMO\pdos1Incar
+
+Dest.2:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\springBreakResDFT\LSMO\pdos2Incar
+
+
+
+---------------- been working on getting charge arround each atom using BADER double checking that I did everything right on Stampede2 ------- 4/20/2020 ----------
+---------------- Just getting LSMA file for right now -------------------------------------------------------------------------------------------------------------
+------------------------------------------------------- Still need to check into stuff before I get arround to doing the others -----------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/chargFiles
+
+dest.:
+scp whale@stampede2.tacc.utexas.edu:/
+
+
+
+---------------- Download files to do baderanalysis (currently downloading:LSMAOcls,LSMO) ------- 4/27/2020 ----------
+
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/chargFiles/{ArchOfLSMAOcls.tar.gz,ArchOfLSMO.tar.gz} C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week3PostSprBreak
+
+
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/chargFiles/{ArchOfLSMAOcls.tar.gz,ArchOfLSMO.tar.gz}
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week3PostSprBreak
+------------- Get CONTCAR for LSMA to find out the coordinates of the active Mn atom ------------- 4/27/2020 ---------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMAplain/pdosLSMAplain/step2/CONTCAR C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week3PostSprBreak\CONTCARS\LSMA
+
+
+dest.:
+C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week3PostSprBreak\CONTCARS\LSMA
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/LSMAplain/pdosLSMAplain/step2
+
+
+------------- get files for LSM bader analysis ------------- 5/19/2020 ---------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMplain/run2/double_check/run3/run4/run5/run6/run7/ibrion2/step1PDOS/step2/{INCAR,POSCAR,CONTCAR,vasprun.xml,DOSCAR,CHGCAR} C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week9\noMixLSM
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMplain/run2/double_check/run3/run4/run5/run6/run7/ibrion2/step1PDOS/step2/wMix/{INCAR,POSCAR,CONTCAR,vasprun.xml,DOSCAR,CHGCAR} C:\Users\bruce\Desktop\research\withPabritaChoudury\spr2020\week9\mixLSM
+
+
+------------- files for PDOS median energy analysis ----------- 1/23/2021 ---------------
+---------- single k point surface active Mn atom ----------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSM/LSM_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSM
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSMA/LSMA_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSMA/
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSMO/PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSMO/
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSMAOcls/PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSMAOc/
+
+
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSM/PDOS/DOSCAR
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSMA/PDOS/DOSCAR
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSMO/PDOS/DOSCAR
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/singleKpoint/LSMAOcls/PDOS/DOSCAR
+
+dest.:
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSM
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSMA
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSMO
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/singleKpoint/activeMn_eg/vaspFiles/LSMAOcls
+
+
+
+
+
+
+
+
+------------- files for PDOS median energy analysis ----------- 1/23/2021 ---------------
+---------- triple k point surface active Mn atom ----------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSM/LSM_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSM
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMA/LSMA_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSMA
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSMO
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMAOcls/LSMAOcls_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSMAOcls
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSM/LSM_3_PDOS/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMA/LSMA_3_PDOS/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_3_PDOS/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMAOcls/LSMAOcls_3_PDOS/DOSCAR
+
+
+dest.:
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSM
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSMA
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSMO
+/home/william/Documents/researchSpecific/PDOSstuff/LSMsysPDOS/PDOSanalysisV2/PDOSsurface/threeKpoint/activeMn_eg/vaspFiles/LSMAOcls
+
+
+
+
+------------------------------------------------------------------------------------
+---------- The PDOS I created did not seem 
+
+
+
+
+@TODO!!!!!!!!!!!!!!!!!!!!!!!!!
+@TODO
+@TODO
+@TODO
+-----1/30/2021------- I think I lost some logs here because I forgot to save, it was a pretty sizable log too, RIP.
+I will try to comment on what I ran later...
+@TODO coment on log. --------------
+@TODO
+@TODO
+@TODO!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+scp whale@stampede2.tacc.utexas.edu:/
+---- Upload LCO bare surfaces for PDOS analysis ----------------- 1/30/2021 ------------------
+
+scp /home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-001/{CONTCAR,POTCAR,WAVECAR} whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_001/LCO_001_1_relax
+scp /home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-110/{CONTCAR,POTCAR,WAVECAR} whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_110/LCO_110_1_relax
+scp /home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-111/{CONTCAR,POTCAR,WAVECAR} whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_111/LCO_111_1_relax
+
+files to upload:
+CONTCAR
+POTCAR
+WAVECAR
+{CONTCAR,POTCAR,WAVECAR}
+
+
+src.:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-001/{CONTCAR,POTCAR,WAVECAR}
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-110/{CONTCAR,POTCAR,WAVECAR}
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-111/{CONTCAR,POTCAR,WAVECAR}
+
+
+
+dest.:
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_001/LCO_001_1_relax
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_110/LCO_110_1_relax
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_111/LCO_111_1_relax
+
+
+
+whale@stampede2.tacc.utexas.edu:
+------- downloading 3x3x1 k point LSM files to make comparisons of PDOS with 1x1x1 kpoint ------------------- 1/30/2021 -------
+----- LSM (no modification) bare surface PDOS files (step 3/4) --- step 4 is bands --------------------------------------------
+-------- The PDOS ran step 2/4 (SC) with ICHARG = 2 and with the relaxization WAVECAR -----------------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/testing_withLSM/LSM_2_SC_calc_test/ICHARG2_WAVECAR/step2Test/with_WAVECAR/{DOSCAR,vasprun.xml} /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LSMsysPDOS/debugPDOS/LSMtestFiles/step2/kpoint331/with_WAVCAR
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/testing_withLSM/LSM_2_SC_calc_test/ICHARG2_WAVECAR/step2Test/no_WAVECAR/{DOSCAR,vasprun.xml} /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LSMsysPDOS/debugPDOS/LSMtestFiles/step2/kpoint331/without_WAVECAR
+
+
+
+src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/testing_withLSM/LSM_2_SC_calc_test/ICHARG2_WAVECAR/step2Test/with_WAVECAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/testing_withLSM/LSM_2_SC_calc_test/ICHARG2_WAVECAR/step2Test/no_WAVECAR
+
+dest.:
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LSMsysPDOS/debugPDOS/LSMtestFiles/step2/kpoint331/with_WAVCAR
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LSMsysPDOS/debugPDOS/LSMtestFiles/step2/kpoint331/without_WAVECAR
+
+
+files to be copied down from supercomputer:
+DOSCAR and vasprun.xml (I already have the POSCAR downloaded from the earlier run with a single kpoint)
+
+
+
+whale@stampede2.tacc.utexas.edu:
+---------------- Downloading files to do PDOS analysis with. ----------- 2/1/2021 --------------
+--------------------- Should be good for all LSM and 2/3 LCO -----------------------------------
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_001/LCO_001_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LCO/LCO001
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_110/LCO_110_3_PDOS/DOSCAR /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LCO/LCO110
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSM/LSM_3_PDOS/modified_run/DOSCAR /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSM
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMA/LSMA_3_PDOS/modified_run/result/DOSCAR /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSMA
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_3_PDOS/modified_run/result/DOSCAR /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSMO
+
+scpwhale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMAOcls/LSMAOcls_3_PDOS/modified_run/result/DOSCAR /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSMAOc
+
+
+LCO src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_001/LCO_001_3_PDOS/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/bare/LCO_110/LCO_110_3_PDOS/DOSCAR
+
+
+LSM src.:
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSM/LSM_3_PDOS/modified_run/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMA/LSMA_3_PDOS/modified_run/result/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_3_PDOS/modified_run/result/DOSCAR
+whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMAOcls/LSMAOcls_3_PDOS/modified_run/result/DOSCAR
+
+file to download:
+DOSCAR
+
+
+LCO dest.:
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LCO/LCO001
+
+
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LCO/LCO110
+
+
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LCO/LCO111
+
+
+LSM dest.:
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSM
+
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSMA
+
+
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSMO
+
+
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/vasp_files/LSM/LSMAOc
+
+
+
+--------Downloading vasprun.xml for LSMO -----------
+I am investigating which atoms are 
+
+src.:
+dest.: /home/william/Documents/researchSpecific/figuringOutOconver
+
+
+
+
+
+------------------------------------------ upload LCO surfaces for PDOS --------- 2/4/2021 ------
+I did not realize that for the files Dr. Choudhury sent me for the LCO system had both smaller and larger slab files. This pretty much means I need to re-upload the files for these slab calculations and redue the PDOS calculation. The 001 and 110 surfaces had larger slabs so I am re-uploading these. I will also start on the *-OH and even on the *-O slabs.
+
+scp /home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-001/221/{CONTCAR,POTCAR} whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_001/LCO_001_1_relax
+scp /home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-110/211/{CONTCAR,POTCAR} whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_110/LCO_110_1_relax
+
+
+dests.:
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_001/LCO_001_1_relax
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_110/LCO_110_1_relax
+
+
+src.:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-001/221
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-110/211
+
+
+files to copy from LCO folder Dr. Choudhury sent:
+CONTCAR
+POTCAR
+
+I did not run the uploaded surface as stampede2 terminal was running slow and the scratch directory was down.
+--> I ended up running them later.
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+Downloading files to investigate LSMO convergence vs non-convergence more. --------- 2/14/2021 -----------
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnly/{OUTCAR,vasrun.xml,CONTCAR} /home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/convg/LSMOprevConvg
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_1_relax/relaxed/{OUTCAR,vasprun.xml,CONTCAR} /home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/convg/LSMOmoreRecentConvg
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnly/quadCheck/{OUTCAR,vasprun.xml,CONTCAR} /home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/not_convg/LSMOprevNotConvg
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_1_relax/previousRun/{OUTCAR,vasprun.xml,CONTCAR} /home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/not_convg/LSMOmoreRecentNotConvg
+
+
+IMPORTANT NOTE: I think I have the PDOS for: "LSMO/LSMO_1_relax/previousRun" in the single k point weried convg. 
+
+
+files to download:
+OUTCAR,vasrun.xml,CONTCAR
+
+
+LSMO converged 
+
+------previous converged:---------
+dest.:
+/home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/convg/LSMOprevConvg
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/LSMoOnly
+
+
+------PDOS (recently) converged:--
+dest.:
+/home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/convg/LSMOmoreRecentConvg
+
+src.:
+/work/06506/whale/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_1_relax/previousRun//stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_1_relax/relaxed
+
+
+
+LSMO unconverged
+
+-----previous NOT converged:----------
+dest.:
+/home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/not_convg/LSMOprevNotConvg
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/LSMoOnly/quadCheck
+
+
+-----PDOS (recently) NOT converged:---
+dest.:
+/home/william/Documents/researchSpecific/figuringOutOconver/deeperInvestigation/LSMO_forces/not_convg/LSMOmoreRecentNotConvg
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO/LSMO_1_relax/previousRun/
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+-----------  Downloading LSO PDOS surfaces to do eg bandcenter analysis  ------ 2/15/2021 ---------------
+-----------  probably try to plot OER/ORR overpotential vs. eg band center  -----------------------------
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_001/LCO_001_3_PDOS/secondTry/{DOSCAR,vasprun.xml,POSCAR,OUTCAR} /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCOsys_PDOS/vaspFiles/surface/LCO_001
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_110/LCO_110_3_PDOS/secondTry/{DOSCAR,vasprun.xml,POSCAR,OUTCAR} /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCOsys_PDOS/vaspFiles/surface/LCO_110
+
+
+scp whale@stampede2.tacc.utexas.edu:/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_111/pdos/{DOSCAR,vasprun.xml,POSCAR,OUTCAR} /home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCOsys_PDOS/vaspFiles/surface/LCO_111
+
+
+
+
+src.s:
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_001/LCO_001_3_PDOS/secondTry
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_110/LCO_110_3_PDOS/secondTry
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/correct_bare/LCO_111/pdos
+
+
+dest.s:
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCOsys_PDOS/vaspFiles/surface/LCO_001
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCOsys_PDOS/vaspFiles/surface/LCO_110
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCOsys_PDOS/vaspFiles/surface/LCO_111
+
+how I was able to get Globus running:
+I followed this main tutorial:
+https://portal.xsede.org/data-management#globus-setup
+
+That tutorial also references these two good tutorials:
+https://docs.globus.org/how-to/get-started/
+https://www.globus.org/globus-connect-personal
+
+The end point for the Summit computer is (note that there is another similar named but different end point [I think for people at CU boulder]):
+CU Boulder Research Computing XSEDE
+files to download
+DOSCAR,vasprun.xml,POSCAR,OUTCAR
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+------------- Testing the download of a file off of the Summit cluster using scp -----------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+
+scp whale@xsede.org@login.rc.colorado.edu:/home/whale@xsede.org/testFileDown/testFileToDownload /home/william/Documents/researchSpecific/figOutDataTranfer_toSummit/
+
+username:
+whale@xsede.org
+
+
+src.:
+whale@xsede.org@login.rc.colorado.edu:/home/whale@xsede.org/testFileDown/testFileToDownload
+
+dest.:
+/home/william/Documents/researchSpecific/figOutDataTranfer_toSummit
+
+scp -o User=whale@xsede.org login.rc.colorado.edu:/home/whale@xsede.org/testFileDown/testFileToDownload /home/william/Documents/researchSpecific/figOutDataTranfer_toSummit/
+
+
+This failed. I do not think people logging into summit via exscede can use SCP I had to use Globus 
+
+How I was able to get Globus running:
+I followed this main tutorial:
+https://portal.xsede.org/data-management#globus-setup
+
+That tutorial also references these two good tutorials:
+https://docs.globus.org/how-to/get-started/
+https://www.globus.org/globus-connect-personal
+
+The end point for the Summit computer is (note that there is another similar named but different end point [I think for people at CU boulder]):
+CU Boulder Research Computing XSEDE
+
+
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+----------- Downloading some of the LMSO previous converged files to run as a test on summit balanca ----------- 
+---------------------------------------------------------------------------------- 2/18/2021 -------------------
+
+
+scp whale@stampede.tacc.utexas.edu:/work/06506/whale/stampede2/LSMsystem/LSMoOnly{OUTCAR,POSCAR,CONTCAR,POTCAR,INCAR,KPOINTS,vasprun.xml} /home/william/Documents/researchSpecific/summit_setup/test/PrevConvg_LSMO
+
+
+dest.:
+/home/william/Documents/researchSpecific/summit_setup/test/PrevConvg_LSMO
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/LSMoOnly
+
+files to download:
+OUTCAR
+POSCAR
+CONTCAR
+POTCAR
+INCAR
+KPOINTS
+vasprun.xml
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+------- Download files to check how LSMO is converged -------------- Hopefully converged correctly for PDOS ---
+----------------------------------------------------------------------------- 2/20/2021 -----------------------
+---------------------------------------------------------------------------------------------------------------
+
+
+
+dest.:
+/home/william/Documents/researchSpecific/figuringOutOconver/previousCONVG_redue
+
+
+src.:
+/work/06506/whale/stampede2/LSMsystem/LSMoOnly/LMSOold_redue/result
+
+
+files to download:
+vasprun.xml, CONTCAR, WAVECAR, OUTCAR
+
+-> I used Globbus to do this.
+
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+---- Downloading OER LMSA excel sheet from MedeA machine to do ORR op calculation ------ 2/22/2021 -----------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+
+scp medea@129.138.46.126:/export/home/medea/Desktop/William/LSM-system/Energy-OER-LSMA-alkali.xlsx /home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/LSM/OER/LSMA
+
+
+
+src.:
+/export/home/medea/Desktop/William/LSM-system/Energy-OER-LSMA-alkali.xlsx
+
+dest.:
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/LSM/OER/LSMA
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+-------- Downloading bare surface LSM system PDOS files with main purpose of checking atom index -----------
+------------------------------------------------using Globbus ---------------- 3/4/2021 --------------------
+------------------------------------------------------------------------------------------------------------
+
+
+main encompassing src. folder:
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks
+
+main encompassing dest. folder:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/PDOSoutput/bareSurface
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------- Downloading *OH intermediates for LSM PDOS files. I am going to try the PDOS thing with them ---                    -- 
+----------------------------------------------- using Globbus --------------- 3/5/2021 --------------------                    --
+---------------------------------------------------------------------------------------------------------------------------------
+
+main encompassing src. folder
+/work/06506/whale/stampede2/LSMsystem/intermediates/centMn/PDOS_cent_Mn_OH
+
+main encompassing dest. folder
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/PDOSoutput/OH_intermediates_centerMn
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+-------- Downloading center Mn LSM intermediates to start doing overpotential calculations on second Mn site --------------------
+-------------------------------------------------------------------------using Globlus ----------------- 3/5/2021 --------------
+---------------------------------------------------------------------------------------------------------------------------------
+----- !!!!!!! was able to download all the relevant files except the LSMAO-OO frequency calculation file (it is still running)---
+------------was also downloading corresponding frequency files
+
+
+main encompassing src. folder
+/work/06506/whale/stampede2/LSMsystem/intermediates/centMn
+
+main encompassing dest. folder
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+--------- Uploading some LCO110 surface files to do some correct relaxations and later the required freq. calculation ------------
+------------------------------------------------------------------------ using Globlus -------------------- 3/6/2021 ------------
+----------------------------------------------------------------------------------------------------------------------------------
+---------------------- !!!!!!!!!!!!!@TODO also need to redue/reupload a few of the LSM intermediate calculations -----------------
+----------------------------------------------------------------------------------------------------------------------------------
+
+main destination folder:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_110
+
+main source folder:
+/home/william/Documents/researchSpecific/LaCoO3Sys
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+----------- Starting to reupload "the some LCO110 surface files" because there were mistakes in those POSCARs. ---------------------------------
+------------ This upload is in particular the LCO 110-OO intermediate------------------------------------- 3/7/2021 ----------------------------
+------------------------------------------------------------------------------------- Using Globlus -------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Details about what was wrong with the LCO110-OO intermediate:
+ I forgot to list the frozen atoms in the LCO110 intermediates for the last upload so I am now doing that before reuploading.
+ There were also numerous mistakes in the LCO110-OO intermediate POSCAR that I had to fix I am reuploading the files for that now.
+ I am going to double check the other POSCARs (LCO110-OH and LCO110-OOH) when I mark the frozen atoms 
+
+The only LCO110-OO intermediate files I am reuploading are the POSCAR and the POTCAR
+The previously uploaded POTCAR should be correct assuming I did not mess up the upload. I am reuploading it just to be extra safe.
+
+Main source directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-OO-110/correct_files_here/211/relax
+
+
+Main destination directory:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_110/LCO110_OO/correct_here
+
+
+!!!!!both the LCO110-OOH and LCO110-OH intermediate POSCARs I built for relaxzation list the wrong number of oxygen atoms.
+!!!!! @FIXED ---> I checked the LCO110-OH intermediate again and I think it had good stuff going on. 
+
+!!!!!!!! Check both of the @TODOs 
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+-------- Reupload of corrected LCO110-OOH intermediate POSCAR ------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- 3/7/2021 -----------------------------------
+------------------------------------------------------ Using Globlus ---------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+I think the only mistakes were that the extra intermediate was not actually being deleted and none of the atoms were frozen. 
+I manually "by hand" remvoed the extra intermediate because whenever I tried to do it VESTA it did not seem
+ permanent (like it would NOT save the structure with the removed extra intermediate).
+
+The way the atoms were listed did not match up with the other intermeditates. So I had to determine which atoms were frozen.
+Luckily the first two layers of atoms are frozen, determining this fact allowed for the easy determination of which atoms to freeze in LCO110-OOH POSCAR.
+
+main source directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-OOH-110/correct_files_here/supercell2x2x1/rlx
+
+main destination directory:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_110/LCO110_OOH/correct_here
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+-------- uploading files to do bulk LCO ------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- 3/9/2021 (2 am) -----------------------------------
+------------------------------------------------------ Using Globlus ---------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+main source:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3/bulk_cell/smaller_cell/toRun
+
+main destination:
+/work/06506/whale/stampede2/LCOsys/bulkStructure
+
+
+-------------------------------------------------------------------------------------------------------------
+------------------ Uploading files to correctly do LSMAO-OOH intermediate --------------------------------------------------------------------------
+------------------------------------ 3/11/2021 --------------------------------
+------------------------ using Globlus -------------------------------------------
+------------------------------------------------------------------
+
+file to transfer: POSCAR
+
+main source directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/LSMAO/LSMAO_OOH/new_intial_build
+
+
+main destination directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/centMn/LSMAOcl_centIntr/LSMAOc_C_OOH/actual_correct_here
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+---------------------- Downloading the relaxed files for LCO bulk --------------------------------------------
+------------------------------------------------------------------------------------------------------ 3/11/2021
+
+
+
+main source directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/bulkLaCoO3/LaCoO3/bulk_cell/smaller_cell/bulk_small_relaxed
+
+
+main destination directory:
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+--------------------- uploading files to Ada to do rlx of LCO111 ------------------------------- 3/11/2021 --------
+--------------------------------------------------------------------------------------------------------------------
+
+scp /home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-111/secondTry/files_to_run/LCO111files.tar.gz 900340463@rainbow.nmt.edu
+
+src.:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-111/secondTry/files_to_run/LCO111files.tar.gz
+
+
+dest.:
+900340463@rainbow.nmt.edu
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+---------------- uploading files to do LSMAO-OO center Mn intermediate ------------------------- 3/13/2021 -----------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------using Globlus----------------------------------------------
+
+
+file to transfer
+LSMAO_OO_input.tar.gz
+
+main src. directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/LSMAO/LSMAO_OO/correct_here/LSMAO_OO_input_files
+
+main dest. directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/correct_here
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+---------------- uploading files to do LSM intermediates on orginal Mn site ------------------------- 3/13/2021 ------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------using Globlus----------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+Pabitra sent me the LSM files and the LSM intermediates were built ontop of the center instead of the corner Mn.
+
+So I built intial poscars for the LSM plain intermediates on the orginal corner Mn site.
+
+
+main source directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSM
+
+main destination directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSM 
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+---------------- uploading files to do LSM intermediates on orginal Mn site ------------------------- 3/13/2021 ------
+----------------------------------------------------------using/work2/06506/whale/stampede2/LSMsystem/intermediates/new_sets/c/III Globlus----------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+Downloading of correct LSMAO-OH PDOS files.
+
+source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/centMn/PDOS_cent_Mn_OH/LSMAO/LSMAO_3_PDOS_cMn_OH/result
+
+destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/PDOSoutput/OH_intermediates_centerMn/LSMAOc_cent_OH
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+-------------- Downloading LCO-111 files to do intermediates on this surface ------------ 3/14/2021 -----------------
+---------------------------------------------------------------------------------------------------------------------
+scp 
+scp
+
+
+files to copy:
+{OUTCAR,INCAR,KPOINTS,CONTCAR,POSCAR,POTCAR}
+
+
+source folders:
+/home/william/LSM-LCO_research/LCO/LCO111/bulk/small_cell/
+/home/william/LSM-LCO_research/LCO/LCO111/bulk/small_cell/every
+
+destination folders:
+/home/william/Documents/researchSpecific/LaCoO3Sys/dbl_check_LaCoO3-111/atoms
+/home/william/Documents/researchSpecific/LaCoO3Sys/dbl_check_LaCoO3-111/everything
+
+
+tar -cvf LCO111_bulk_every.tar 
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+---- Downloading LSMAOc-OOH relaxed structure to check that the intermediate built correctly -------- 3/14/2021 -----
+----------------------------------------------------------using Globlus---------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+main source directoy:
+/work/06506/whale/stampede2/LSMsystem/intermediates/centMn/LSMAOcl_centIntr/LSMAOc_C_OOH/actual_correct_here
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/LSMAO/LSMAO_OOH/new/relaxed_structure
+
+
+---------------------------------------------------------------------------------------------------------------------
+trying to get the LCO111 cell correctly finished.
+
+main source:
+/home/william/LSM-LCO_research/LCO/LCO111/bulk/small_cell
+
+main destination:
+/home/william/LSM-LCO_research/LCO/LCO111/slab/bare/Co_terminated
+
+
+ 
+files to copy: KPOINTS, INCAR, POTCAR LCO111test.q
+
+cp /home/william/LSM-LCO_research/LCO/LCO111/bulk/small_cell/{KPOINTS,INCAR,POTCAR,LCO111test.q} /home/william/LSM-LCO_research/LCO/LCO111/slab/bare/Co_terminated
+----------------------------------------------------------------------------------------------------------------
+- Downloading partially relaxed LSMAOc-OO structure to check that the intermediate is not going bad -- 3/14/2021 -
+--------------------------------------using Globlus------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/correct_here
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/LSMAO/LSMAO_OO/correct_here/partialy_relaxed
+
+---> looks ok, I am going to continue with the relaxization processes.
+---------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------- Downloading the LCO110_OH structure that I relaxed------------------
+main source directory:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_110/LCO110_OH/
+
+main destination directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/LaCoO3-OH-110/new
+ ----> So far so good
+---------------------------------------------------------------------------------------------------
+----- Downloading the partially relaxed LCO001-OH PDOS structure to see if it looks fine -----------
+--------------------- Using Globlus ------ 3/16/2021 ----------------------------- 
+--------------------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LCOsys/PDOS/surface/intermediate_OH/LCO_001/LCO-OH_001_1_relax
+
+main destination directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/
+--- -> So far so good.
+--------------------------------------------------------------------------------------------------
+Downloading some of the relaxed LSM corner Mn intermediates to check that they relaxed alright
+-------------using Globlus 3/16/2021-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+struc: LSMO_OO,LSM_O, LSM_OOH, LSM_OH (all of them)
+
+Main source:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSM
+
+Main destination:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSM
+
+-------------------------------------------------------------------------------------------------
+--- Downloading the center LSMAO-OO intermediate that ran ---------------------------------------
+-------------------------------------------------------------------------------------------------
+- This should be the centered Mn intermediate, but I put it in the wrong directoy on stampede2 --
+-------------------------------------------------------------------------------------------------
+------------------- So we will see. ----------using Globlus ------------- 3/17/2021 ------------
+-------------------------------------------------------------------------------------------------
+
+Main source:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OO/correct_here
+
+Main destination:
+/home/william/Documents/researchSpecific/LSM_files/check_which_LSMAO
+
+ --->So far so good just put it in the wrong location.
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+-downloading the LSMO files off of stampede2 to see if they are the same as the LSMO that Choudhury sent me.
+-------------------------------------------------------------------------------------------------
+-------------------------------using Globlus ------------------------- 3/17/2021 --------------
+------------------------------------------------------------------------------------------------
+main soure directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/LSMO_O/LSMO_Oalt
+main destination folder:
+/home/william/Documents/researchSpecific/LSM_files/LSMO_on_stampede2
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+--- Downloading more LSMO stampede2 files to compare the different structures I have ----------
+------------------ using Globlus ---------------------------- 3/18/2021 -----------------------
+-----------------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/finfinPDOSchecks/LSMO
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/LSMO_on_stampede2/from_PDOS
+
+
+
+----------------------------------------------------------------------------------------------
+-- Uploading files to do LSMO-inside relax for the corner (orginal Mn atom) ------------------
+-- I am going to try and do this on Ada -------------------- 3/18/2021 -----------------------
+----------------------------------------------------------------------------------------------
+
+------------------------ Tranfer to rainbow.nmt.edu ------------------------------------------
+scp /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-O/LSMOinside-orgMn-O.* 900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LSMOinside_orgnial_Mn_site/
+scp /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OH/LSMOinside-orgMn-OH.* 900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LSMOinside_orgnial_Mn_site/
+scp /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OO/LSMOinside-orgMn-OO.* 900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LSMOinside_orgnial_Mn_site/
+scp /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OOH/LSMOinside-orgMn-OOH.* 900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LSMOinside_orgnial_Mn_site/
+
+
+src directories:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-O/LSMOinside-orgMn-O.*
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OH/LSMOinside-orgMn-OH.*
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OO/LSMOinside-orgMn-OO.*
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OOH/LSMOinside-orgMn-OOH.*
+
+destination directory:
+900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LSMOinside_orgnial_Mn_site/
+
+
+---------------------- Transfer to Ada-------------------------------------------------------
+
+scp ./LSMOinside_orgMn_O.* william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-O/
+scp ./LSMOinside_orgMn_OH.* william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OH/
+scp ./LSMOinside_orgMn_OO.* william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OO/
+scp ./LSMOinside_orgMn_OOH.* william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OOH/
+
+
+
+src:
+./LSMOinside-orgMn-O.*
+./LSMOinside-orgMn-OH.*
+./LSMOinside-orgMn-OO.*
+./LSMOinside-orgMn-OOH.*
+
+
+destinaiton directories:
+william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-O/
+william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OH/
+william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OO/
+william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OOH/
+
+
+-------------------------------------------------------------------------------------------
+------uploading LCO111 La terminated face to do relax and then intermediates with ---------
+----3/18/2021------------------------------------------------------------------------------
+
+-------- first transfer to rainbow.nmt.edu -----------
+
+scp ./LaTerm_LCO111.tar.gz 900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LCO111LaTerm/
+
+source directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/dbl_check_LaCoO3-111/La_terminated/otherLaTerm/for_relax_on_Ada/LaTerm_LCO111.tar.gz
+
+destination directory:
+900340463@rainbow.nmt.edu:/home/900340463/Ada_uploads/LCO111LaTerm/
+
+----- Then transfer to ada ------------------------
+
+scp ./* william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LCO/LCO111/slab/bare/La_terminated/
+
+source directory (on rainbow.nmt.edu): 
+/home/900340463/Ada_uploads/LCO111LaTerm
+
+destination directory:
+william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LCO/LCO111/slab/bare/La_terminated/
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+------ Uploading LCO111 Co terminated rebuilt intermediate files --------------------------
+----- 3/18/2021 -------------- using Globlus ---------------------------------------------
+-------------------------------------------------------------------------------------------
+
+main source directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/
+
+main destination directory:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_111
+
+
+
+-------------------------------------------------------------------------------------------
+------ Downloading failed LCO111-OOH Co terminated rebuilt intermediate files -------------
+----- 3/19/2021 -------------- using Globlus ---------------------------------------------
+-------------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_111/LCO111-OOH
+
+main destination directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/progress_check_LCO111-OOH
+
+-->so far so good. I think I will simply change the parallelization settings and copy CONTCAR to POSCAR.
+------------------------------------------------------------------------------------------
+------ Downloading LCO111 intermediate relaxzation and frequency files -------------------
+----------------------- 3/22/2021 ----------------- using Globlus -----------------------
+------------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_111/
+
+main destination directory:
+/home/william/Documents/researchSpecific/LaCoO3Sys/newLCO111_intermediate/
+-----------------------------------------------------------------------------------------
+- Redownloading orginal LSMAOcls intermediate rlx/freq files to check which Mn atom -----
+------ they are built on and for general filing away ------------------------------------
+-------------------- 3/22/2021 ------------------- using Globlus -----------------------
+-----------------------------------------------------------------------------------------
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMAOcls/
+
+----------------------------------------------------------------------------------------
+--- Downloading center LSMAO, *OO and *OOH intermediate rlx/freq files that had to be re-ran-
+----------------------- using globlus -------------- 3/22/2021 -------------------------
+----------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/centMn/LSMAOcl_centIntr/
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/LSMAO/
+
+---------------------------------------------------------------------------------------
+--- Uploading files for LSMAO-OH orginal site. This intermediate was on the wrong atom-
+-----------using globlus ------------------------ 3/22/2021 ---------------------------
+---------------------------------------------------------------------------------------
+
+main source directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMAOcls/LSMAOcls_OH/correct/stage/
+
+main destination directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/new_correct
+
+--------------------------------------------------------------------------------------
+--------- Downloading LSM for the original Mn site. ----------------------------------
+------------ using Globlus ----------------------- 3/22/2021 ------------------------
+--------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSM/
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSM/
+
+--------------------------------------------------------------------------------------
+-------- Downloading LSMO-O intermediates progress from Ada --------------------------
+------------------------------------------------------------- 3/23/2021 --------------
+--------------------------------------------------------------------------------------
+Ada has seems to have good single core performance. However the m
+ultiple node and
+multiple core perfrmance is seriously lacking.
+
+
+
+First move to rainbow.nmt
+
+files to copy over:
+{CONTCAR,OUTCAR}
+
+Source directory:
+/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-O/
+/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OO/
+/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OH/
+/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OOH/
+
+
+Destination:
+900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/
+
+THIS DID NOT WORK:
+scp /home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-O/{CONTCAR,OUTCAR} 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_O/
+scp /home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OO/{CONTCAR,OUTCAR} 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OO/
+scp /home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OH/{CONTCAR,OUTCAR} 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OH/
+scp /home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OOH/{CONTCAR,OUTCAR} 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OOH/
+
+THIS DID WORK:
+scp william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-O/{CONTCAR,OUTCAR} /home/900340463/Ada_downloads/LSMO_intermediates/LSMO_O/
+scp william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OO/{CONTCAR,OUTCAR} /home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OO/
+scp william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OH/{CONTCAR,OUTCAR} /home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OH/
+scp william@ada.id.nmt.edu:/home/william/LSM-LCO_research/LSM/LSMOinside_org_Mn/LSMO-OOH/{CONTCAR,OUTCAR} /home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OOH/
+
+
+
+Move from rainbow.nmt to Local:
+source:
+/home/900340463/Ada_downloads/LSMO_intermediates/LSMO-O/
+/home/900340463/Ada_downloads/LSMO_intermediates/LSMO-OO/
+/home/900340463/Ada_downloads/LSMO_intermediates/LSMO-OH/
+/home/900340463/Ada_downloads/LSMO_intermediates/LSMO-OOH/
+
+destination:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-O/
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OO/
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OH/
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OOH/
+
+
+scp 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_O/{CONTCAR,OUTCAR} /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-O/ 
+scp 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OO/{CONTCAR,OUTCAR} /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OO/ 
+scp 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OH/{CONTCAR,OUTCAR} /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OH/ 
+scp 900340463@rainbow.nmt.edu:/home/900340463/Ada_downloads/LSMO_intermediates/LSMO_OOH/{CONTCAR,OUTCAR} /home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OOH/ 
+
+
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO
+
+--------------------------------------------------------------------------------------
+-- uploading LSMO orginal site intermediate files to stampede2 to actually get them --
+--------------------------------------------------------------------------------------
+--------------------- using Globlus ------------------------ 3/23/2021 --------------
+--------------------------------------------------------------------------------------
+
+main source directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/
+
+main destination directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/new_correct/
+
+
+
+--------------------------------------------------------------------------------------
+- uploading complete left site intermediate files to stampede2 to actually get them --
+----everything except LSMO -----------------------------------------------------------
+--------------------- using Globlus ------------------------ 3/24/2021 --------------
+--------------------------------------------------------------------------------------
+
+main source directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/
+
+main destination directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/leftMn/
+
+
+
+
+-------------------------------------------------------------------------------------
+--- Downloading LSM intermediates for the orginal site ------------------------------
+------------------------------------------------------ 3/28/2021 --------------------
+----------- using Globlus ----------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+main source:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSM
+
+main destination:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSM
+
+
+
+-------------------------------------------------------------------------------------
+--- Downloading LCO slab for 110 -------------- 3/29/2021 ---------------------------
+-----------using Globlus------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+
+main source:
+/work/06506/whale/stampede2/LCOsys/intermed/surf_110/
+
+
+main destination:
+
+
+
+
+
+
+Downloading LCO surface OH intermediates.
+
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/PDOSstuff/LCO_LSM_combined/surface/OH_intermiates_LCO
+
+
+
+
+
+
+-----------------------------------------------------------------------------------
+--- Downloading LSMAO-OH on orginal site POSCAR to check it is not messed up ------
+------------- using Globlus --------------- 3/29/2021 ----------------------------
+-----------------------------------------------------------------------------------
+
+
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/new_correct
+
+main destinaiton directory:
+
+
+
+--------------------------------------------------------------------------------------------
+- downloading LSMAOclose orginal site new files again to check overpotential calculations --
+-------------- using Globlus ---------------- 4/3/2021 ------------------------------------
+--------------------------------------------------------------------------------------------
+
+main source directory:
+/work/06506/whale/stampede2/LSMsystem/intermediates/org_site_LSMAOcls_new
+
+
+main destination directory:
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/LSM/original_site/OER/LSMAO
+
+
+--------------------------------------------------------------------------------------------
+--- downloading files for LSMO_OOH NOT converged as the current energy values seem high ----
+-------------- using Globlus ------------- 4/5/2021 ----------------------------------------
+--------------------------------------------------------------------------------------------
+
+main src. directory (Stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/new_correct/LSMO_OOH/
+
+main dest. directory (local):
+/home/william/Documents/researchSpecific/LSM_files/checks/not_converged_checks/orginal_site/LSMO/LSMO_OOH/
+
+-> The contcar seems to have nearly identical placement of atoms as the initial poscar.
+---> I tried changing the parallel excution intructions around again. 
+---> Also on Ada I have two relaxzation runs of this struture. One is just with the parallel 
+---> settings switched and smaller POTIM the other is with the parallel instructions switched
+---> and the *-O-o-h (the first intermediates Oxygen atom) shifted down slightly. 
+---> From fractional Z~0.763451 to Z~0.761451
+
+---------------------------------------------------------------------------------------------------------
+---- downloading the LSMAO-OH intermediate to check and see if it is the correct structure --------------
+-------------- using Globlus ----------------------- 4/5/2021  ------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+main src. directory (stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/new_correct/third_try
+
+
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMAOcls/double_check/LSMAO_OH/maybe_new_files
+
+
+
+
+
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMAOcls/double_check/bare_surface/
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+----- Uploading the LSMAOcls-OH original site intermediate poscar again. I think I just messed this up --
+----- last time. ----------------------------------------------------------------------------------------
+------------------ using Globlus ------------------------- 4/5/2021 -------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+source (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMAOcls/LSMAOcls_OH/correct/stage
+
+
+destination (stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMAOclose/LSMAO_OH/new_actually_correct
+
+-----------------------------------------------------------------------------------------------
+----- downloading LSM left site intermediates and then binning them. --- 4/11/2021 ------------
+----------- using globlus ---------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+
+main source directory (stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/leftMn/LSM
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/LSM
+
+
+-----------------------------------------------------------------------------------------------
+----- downloading ALSM left site intermediates and then binning them. --- 4/11/2021 ------------
+----------- using globlus ---------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+main source directory (stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/leftMn/LSMA
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/LSMA
+
+-----------------------------------------------------------------------------------------------
+----- downloading LSMO orinal site intermediates for binning and...  --- 4/11/2021 ------------
+----- ... to do something about the non-converged LSMO-OOH ------ using globlus ---------------
+-----------------------------------------------------------------------------------------------
+main source directory (stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside
+
+
+
+-----------------------------------------------------------------------------------------------
+----- upploading LSMO-OOH orinal site intermediates thats been nudeged  --- 4/11/2021 ---------
+----- hopefully it will now converge ---------------------------- using globlus ---------------
+-----------------------------------------------------------------------------------------------
+main source directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSMO_inside/LSMO-OOH/partially_relaxed_2/shake
+
+
+main destination directory (stampede2):
+/work/06506/whale/stampede2/LSMsystem/intermediates/LSMO/new_correct/LSMO_OOH/nudged
+
+
+/work/06506/whale/stampede2/LSMsystem/intermediates/leftMn/LSMA
+
+
+-----------------------------------------------------------------------------------------------
+--- upploading offset initial intermediates for a (orginal) III (Sr A-site) --- 4/14/2021 -----
+----------------- using Globlus --------------^^^^^!??!?!?!?!----------------------------------
+-----------------------------------------------------------------------------------------------
+
+main source folder (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/new_set
+
+main destination folder (destination):
+/work/06506/whale/stampede2/LSMsystem/intermediates/new_sets/b
+
+------------------------------------------------------------------------------------------------
+--- Downloading all the currently relaxed intermediates ----------------------------------------
+------------ using Globlus --------------------------------------------------- 4/17/2021 -------
+------------------------------------------------------------------------------------------------
+
+
+main src. directory (stampede2):
+/work2/06506/whale/stampede2/LSMsystem/intermediates/new_sets/b
+
+main dest. folder (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/new_set
+
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+-- Uploading offset intermerdiates for varioussites for LSM and related structres --------------
+----- using Globlus --- see addition notes below to see which intermediates were uploaded ------
+---------------------------------------------------------------------- 4/18/2021 ---------------
+------------------------------------------------------------------------------------------------
+Notes: I tried to separate out the various different intermediate sites, and labeled them each.
+
+
+intermediates for c. (left) B-site and III (La near Mn vacancy) A-site.
+main src. directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/new_set/
+main dest. directory (stampede2):
+/work2/06506/whale/stampede2/LSMsystem/intermediates/new_sets/c/III
+
+
+
+intermediates for c. (left) B-site and I (La near other side of Mn vacancy) A-site.
+main src. directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/new_set/
+main dest. directory (stampede2):
+/work2/06506/whale/stampede2/LSMsystem/intermediates/new_sets/c/III
+
+
+
+intermediates for a. (center) B-site and II (Sr) A-site.
+
+main src. directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/new_set
+main dest. directory:
+/work2/06506/whale/stampede2/LSMsystem/intermediates/new_sets/a/II
+
+------------------------------------------------------------------------------------------------
+----------- Downloading the new set of intermediates off of Stampede2 to tranfer to Summit------
+----------- We ran out of our allocation on Stampede2. -----  Using Globblus  ------------------
+--------------------------------------------------------------- 4/22/2021   --------------------
+------------------------------------------------------------------------------------------------
+
+src. directory (Stampede2):
+/work2/06506/whale/stampede2/LSMsystem/intermediates
+
+dest. directory (local):
+/home/william/Documents/researchSpecific/back_ups
+------------------------------------------------------------------------------------------------
+----------- Now uploading intermediate files to summit -----------------------------------------
+------------------------------------------------------------- Using Globlus --------------------
+------------------------------------------------------------- 4/22/2021 ------------------------
+------------------------------------------------------------------------------------------------
+
+src. directory (local):
+/home/william/Documents/researchSpecific/back_ups
+
+dest. directory (Summit Cu Boulder):
+/projects/whale@xsede.org/computation_files/LSM_system/backup
+
+
+
+------------------------------------------------------------------------------------------------
+------------ Uploading VTST to compile VASP how we like on Summit at Cu Boulder ----------------
+------------------------------------------------------------------------------------------------
+---------- Using Globlus -------------------------------- 4/22/2021 ----------------------------
+------------------------------------------------------------------------------------------------
+
+src. directory (local):
+/home/william/Documents/researchSpecific/summit_setup/vtst_compile/vtst_src
+
+
+dest. directory (Su0mmit Cu Boulder):
+/projects/whale@xsede.org/retry_compile/DGGEV_opt/with_VTST/VTST_src
+
+---------------------------------------------------------------------------------------------------
+------- Downloading some output files for LSM c.I -- I previously only down the POTCARs/POSCARs ---
+--------------------------- using Globlus ------------------- 4/30/2021 ---------------------------
+---------------------------------------------------------------------------------------------------
+
+
+main source directory:
+
+
+
+main destination directory:
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/LSM
+
+
+--------------------------------------------------------------------------------------------------
+--------- Uploading Quantum Espresso 6.7 package to summit to try and compile it -----------------
+----------------- using Globlus ----------------------------- 5/2/2020 ---------------------------
+--------------------------------------------------------------------------------------------------
+
+
+main source directory (local):
+/home/william/Downloads/quantum_espresso/cpu_QE
+
+main destination directory (summit Cu Boulder):
+/projects/whale\@xsede.org/quantum_espresso/cpu
+
+
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/new_set/LSMAO/II
+
+
+
+--------------------------------------------------------------------------------------------------
+------- Uploading VASP files for LSM b.IV and c.IV onto summit -----------------------------------
+-------------- using Globlus ------------------------------------- 5/10/2021 ---------------------
+--------------------------------------------------------------------------------------------------
+
+main source directory(local):
+/media/william/TOSHIBA%20EXT/research/LSM_intermediates/new_set/unzipped/new_sets
+/home/william/Documents/researchSpecific/back_ups
+
+
+main destination directory (summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets
+
+
+
+--------------------------------------------------------------------------------------------------
+- Uploading VASP files for LSM c.IV (LSM base only) onto summit for testing ----------------------
+-------------- using Globlus ------------------------------------- 5/11/2021 ---------------------
+--------------------------------------------------------------------------------------------------
+
+main source directory(local):
+/home/william/Documents/researchSpecific/back_ups/test/c
+
+
+main destination directory (summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets
+
+
+--------------------------------------------------------------------------------------------------
+--- Downloading relaxed CONTCAR files for LSM c.IV (LSM base only) from summit -------------------
+--------------  using Globlus ------------------------------------- 5/11/2021 --------------------
+--------------------------------------------------------------------------------------------------
+
+main source directory (Cu Boulder Summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/test/c/second_IV/LSM
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/back_ups/test/c
+
+
+----------------------------------------------------------------------------------------------------
+--- Uploading POSCARs to do a.I-LSMO and c.III-LSMO to summit  -------------------------------------
+-------------- using Globlus ------------------------------------ 5/14/2021 ------------------------
+----------------------------------------------------------------------------------------------------
+
+main source directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/new_set/LSMO/I/
+
+main destination directory (Cu Boulder Summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/a/I/LSMO
+
+
+
+main source directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/left_intermediates/new_set/LSMO/III/LSMO
+
+main destination directory (Cu Boulder Summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/c/III
+
+
+main source directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/centMn_intermediates/new_set/LSMAO
+
+
+main destination directory (Cu Boulder Summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/a/I/ALSMO
+
+-----------------------------------------------------------------------------------------------------
+--- Downloading relaxed CONTCARs from summit to check runs     -------------------------------------
+-------------- using Globlus ------------------------------------ 5/17/2021 ------------------------
+----------------------------------------------------------------------------------------------------
+
+
+main source directory (Cu Boulder Summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets
+
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/back_ups
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+--- Uploading POSCARs to do a.I-LSMO and c.III-LSMO to summit  -------------------------------------
+-------------- using Globlus ------------------------------------ 5/17/2021 ------------------------
+----------------------------------------------------------------------------------------------------
+
+
+main source folder (local):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets
+
+main destination folder (Cu Boulder):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/new/freq
+
+
+
+
+./b/LSM/III/LSM_OH
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+--- Downloading freq files for orginal (b) B-site from summit --------------------------------------
+-------------- using Globlus ------------------------------------ 6/03/2021 ------------------------
+----------------------------------------------------------------------------------------------------
+
+main source directory (Cu Boulder summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets
+
+
+main destination directory (loacal):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/new/freq
+
+
+
+----------------------------------------------------------------------------------------------------
+---- uploading missing LSM_OH_b_III files to double check and then do freq -------------------------
+----------- usign Globlus ------------------------------------- 06/06/2021 -------------------------
+----------------------------------------------------------------------------------------------------
+
+main source directory (local):
+/home/william/Documents/researchSpecific/LSM_files/vasp_files/corner_intermediates/LSM/LSM-OH/relaxed
+
+
+main destination directory (Cu Boulder summit):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/LSM/III/LSM_OH
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+----- uploading POTCARs to runs on NM Consortium --------------------------------------------------
+----------- using SCP --------------------------------------- 06/09/2021 --------------------------
+---------------------------------------------------------------------------------------------------
+
+Need to upload La Sr Mn O POTCAR and La Sr Mn O H POTCAR
+
+main source directories:
+/home/william/Documents/researchSpecific/LSM_files/LSM_plain/LSM/POTCAR
+/home/william/Documents/researchSpecific/LSM_files/LSM_plain/LSM-OH/POTCAR
+
+main destination directories:
+/pcc-nmt-01/home/whale/POTCARs/LSM_pot
+/pcc-nmt-01/home/whale/POTCARs/LSM_H_pot
+
+
+scp -o 'ProxyJump whale@pcc-portal.newmexicoconsortium.org' /home/william/Documents/researchSpecific/LSM_files/LSM_plain/LSM/POTCAR whale@po-fe1.newmexicoconsortium.org:/pcc-nmt-01/home/whale/POTCARs/LSM_pot
+
+
+scp -o 'ProxyJump whale@pcc-portal.newmexicoconsortium.org' /home/william/Documents/researchSpecific/LSM_files/LSM_plain/LSM-OH/POTCAR whale@po-fe1.newmexicoconsortium.org:/pcc-nmt-01/home/whale/POTCARs/LSM_H_pot
+
+
+
+----------------------------------------------------------------------------------------------------
+------ Downloading frequency files for b.III LSM ---------------------------------------------------
+-----------using Globlus----------------------------------------------------------------------------
+
+main source directory (Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/LSM/III/LSM_OH/freq
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/new/freq/b/III/LSM/LSM_OH
+
+----------------------------------------------------------------------------------------------------
+------ Downloading frequency files for b.II LSM ---------------------------------------------------
+----------- using Globlus --------------------------------------------------------------------------
+
+
+
+main source directory (Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/LSM/II
+
+
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/new/freq/b/II/LSM
+
+
+
+
+----------------------------------------------------------------------------------------------------
+------ Downloading frequency recip files for b.II LSM ----------------------------------------------
+----------- using Globlus --------------------------------------------------------------------------
+
+main source directory (Summit, Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b
+
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/new/recip/b
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+------ Uploading Nick's files to try and do his to check -------------------------------------------
+----------- using Globlus --------------------------------------------------------------------------
+
+main source directory (local):
+
+
+
+main destination directory (Summit, Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/from_files_Pabitra_sent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+------ Downloading files to run on NM consortium because of queue on Summit ------------------------
+----------- using Globlus ------------------------------------- 
+
+
+
+main source directory (Summit, Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/IV/LSMA/LSMA_O/recip_space/freq/second_try
+
+
+
+
+main destination directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/overpots/new/freq/b/IV/ALSM/ALSM_O/second_try
+
+
+
+
+
+--------------------------------------------------------------------------------
+------------- Downloading --- test frequency files to see if they differ -------
+--------------------------------------------------------------------------------
+----------- using Globlus ------------------------------------- 
+
+Source Summit (Cu Boulder):
+
+LSMA_O b_free source: d
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/ALSM/I/LSMA_O/second_try/freq_test/b_free
+
+Destination (local):
+/home/william/Documents/researchSpecific/freq_test/LSMA_O/b_free
+
+
+LSMA_O top_two_layer_free source: d
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/ALSM/I/LSMA_O/second_try/freq_test/full
+
+Destination (local): d
+/home/william/Documents/researchSpecific/freq_test/LSMA_O/full
+
+
+
+
+
+
+LSMA_OOH b_free source: d
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/ALSM/I/LSMA_OOH/freq_test/b_inter
+
+Destination (local): d
+/home/william/Documents/researchSpecific/freq_test/LSMA_OOH/b_free
+
+
+LSMA_OOH top_two_layer_free source: d 
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/ALSM/I/LSMA_OOH/freq_test/full
+
+Destination (local): d
+/home/william/Documents/researchSpecific/freq_test/LSMA_OOH/full
+
+
+
+
+
+
+LSMA_OOH b_a_free
+
+source directory (Summit CU Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/ALSM/I/LSMA_OOH/freq_test/b_a_inter
+
+Destination directory:
+/home/william/Documents/researchSpecific/freq_test/LSMA_OOH/b_a_free/
+
+
+LSMA_O b_a_free
+
+source directory (Summit CU Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/ALSM/I/LSMA_O/second_try/freq_test/b_a_free
+
+
+Destination directory:
+/home/william/Documents/researchSpecific/freq_test/LSMA_O/b_a_free/
+/home/william/Documents/researchSpecific/freq_test/LSMA_O/b_a_free
+x-special/nautilus-clipboard
+copy
+file:///home/william/Documents/researchSpecific/freq_test/LSMA_O/b_a_free
+
+
+
+---------------------------------------------------------------------------------------
+---------------- Downloading new PDOS done for LSM using the consistent POTCAR --------
+----------- using Globlus -------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+
+Source directory (Summit CU Boulder): /scratch/summit/whale@xsede.org/computations/LSM_system
+directory to transfer: wo_CHGfiles_barePOT
+
+Destination directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/PDOS_BandStructure/bare_POTupdate/smaller_files
+
+
+
+----------------------------------------------------------------------------------------
+------ Uploading *O intermediates with completely forzen substrate. --------------------
+----------- I started with LSM relxd slab, I completely froze it and then built the 
+             different vacacies and then I built all the starting *O intermediates -----
+----------------------------------------------------------------------------------------
+--------------- using globblus ------------------------- 7/16/2021 ---------------------
+
+
+Source directory (local):
+/home/william/Documents/researchSpecific/new_completly_frozen
+
+destination directory (Summit CU Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system
+
+
+
+---------------------------------------------------------------------------------------
+---- Downloading new freq files done for (A)LSM(O) using the consistent POTCAR --------
+----------- using Globlus -------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+
+
+Source Directory (CU Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b
+
+Destination Directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/freq_POT_update/b
+
+Also took freq files for ALSM_O from:
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/from_files_Pabitra_sent/ALSM/LSMA_O/double_check_potcar/default/continuation/freq
+
+
+
+---------------------------------------------------------------------------------------
+--- Downloading new freq files for ALSM-O III -----------------------------------------
+---------------------- using Globlus --------------------------------------------------
+---------------------------------------------------------------------------------------
+
+source directory (CU Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b/from_files_Pabitra_sent/ALSM/LSMA_O/double_check_potcar/default/continuation/freq
+
+Destination directory (local):
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/freq_POT_update/b
+
+
+Globlus was not working so I tried this:
+
+scp -o 'ProxyJump whale@pcc-portal.newmexicoconsortium.org' whale@po-fe1.newmexicoconsortium.org:~/test_transfer.txt ./test_tranfer_worked.txt
+scp -o "ProxyJump whale@login.xsede.org" {OUTCAR,POSCAR} -P 9009 william@pop-os:/home/william
+
+proxy jump does not work if I do SCP on remote machine. I did not think of
+ initializing scp w/ proxyjump on my local machine.
+It probably would have worked if I did but instead I ended up doing this:
+
+scp ./{OUTCAR,POSCAR} whale@ssohub.iu.xsede.org:/home/whale/temp_hold 
+
+scp whale@ssohub.iu.xsede.org:/home/whale/temp_hold/{OUTCAR,POSCAR} /home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/freq_POT_update/b/iii/ALSM/ALSM_O/
+
+Turns out there is 100 Mb of storage for me on the SSO.
+ 
+
+
+
+
+
+
+
+
+downloading files for correct ALSM-O b.IV
+
+destination
+/home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/freq_POT_update/b/iv/ALSM/ALSM_O/correct_in_here
+
+
+
+
+scp ./{OUTCAR,POSCAR} whale@ssohub.iu.xsede.org:/home/whale/temp_hold 
+
+scp whale@ssohub.iu.xsede.org:/home/whale/temp_hold/{OUTCAR,POSCAR} /home/william/Documents/researchSpecific/electronicCharacterization/overPotRelated/freq_POT_update/b/iv/ALSM/ALSM_O/correct_in_here
+
+/home/whale/temp_hold
+
+
+I think I need to use this to proxy jump through Xsede's SSO and into Summit Cu Boulder:
+Host rmacc-summit
+        Hostname login.colorado.xsede.org
+        GSSAPITrustDns no
+        Port 22
+
+
+
+--------------------------------------------------------------------------------
+--- Uploading some H2O files for the thermodynamics ----------------------------
+---------------------- Globlus endpoint was not working ------------------------
+--------------------------------------------------------------------------------
+
+src.:
+/home/william/Documents/researchSpecific/thermo_molecules/h20/ang10cubed
+/home/william/Documents/researchSpecific/thermo_molecules/h20/ang15cubed
+
+
+dest.:
+whale@ssohub.iu.xsede.org:/home/whale/temp_hold 
+
+scp -r whale@ssohub.iu.xsede.org:/home/whale/temp_hold/* ./
+
+
+--------------------------------------------------------------------------------
+------ Downloading POTCAR to send cneb files to Pabitra ------------------------
+------------------------------------------------- using Globlus ----------------
+---------------9m/21d/2021 -----------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+src.:
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b_special/intermediate_tst/LSM_ObIIItobIV/mostlySame/dual_images/partly_freeze
+
+dest.:
+/home/william/Documents/researchSpecific/neb/LSM_O_iii_iv_test/mostlysame/more_images
+
+
+
+--------------------------------------------------------------------------------
+------ uploading corrected files for CNEB for LSMIVb IV to I to summit ---------
+--------------------------------------------------------------- using Globlus --
+------------ 9m/24d/2021 -------------------------------------------------------
+--------------------------------------------------------------------------------
+
+src. (local):
+/home/william/Documents/researchSpecific/neb/LSM_O_iii_iv_test/mostlysame/more_images/complete_interpolated/ready_to_run
+
+dest. (Summit Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_sets/b_special/intermediate_tst/LSM_ObIIItobIV/update_attempt
+
+--------------------------------------------------------------------------------
+-------- uploading corrected files for CNEB for LSMIVb IV to I to stampede2 ----
+----------9m/24d/2021 ----------------------------------- using Globlus --------
+--------------------------------------------------------------------------------
+
+src. (local):
+/home/william/Documents/researchSpecific/neb/LSM_O_iii_iv_test/mostlysame/more_images/complete_interpolated/ready_to_run
+
+
+dest.(stampede2 UTexas):
+/work2/06506/whale/stampede2/LSMsystem/transistionStates/LSMbIVtoI
+
+
+
+--------------------------------------------------------------------------------
+-------- downloading relaxed surfaces to do parlty frozen intermediates --------
+----------9m/29d/2021 ----------------------------------- using Globlus --------
+--------------------------------------------------------------------------------
+
+src. (summit Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system
+
+dest. (local):
+/home/william/new_separate/froze_after_relax
+
+
+
+--------------------------------------------------------------------------------
+--- Downloading PDOS of almost all frozen substrate defect including wavecar ---
+-------- 10m/1d/2021 ------------------------------- using Globlus -------------
+--------------------------------------------------------------------------------
+src. (Summit Cu Boulder):
+/scratch/summit/whale@xsede.org/computations/LSM_system/new_completly_frozen
+dest. (local):
+/home/william/new_separate/froze_before_rlx/
+
+directory to transfer:
+reference
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+---- Uploading H2 files to get H2 energy ---------------------------------------
+-------- 10m/6d/2021 -----------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+source.:
+/home/william/Documents/researchSpecific/thermo_molecules/h2
+
+dest.:
+/scratch/summit/whale@xsede.org/computations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
